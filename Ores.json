@@ -397,27 +397,26 @@
         "pricePerUnit": 1000000
       }
     ]
-  }
+  },
   {
-"type": "Ore",
-"name": "Eternity Ore",
-"rarity": "Transcendent",
-"source": "Realms Beyond",
-"spawnChance": 0.000001,
-"miningMethod": "Dimensional Resonator",
-"hardness": 50,
-"description": "A transcendent ore that exists beyond the boundaries of our known reality. It is said to contain the essence of eternity itself and can be used to craft artifacts of unimaginable power.",
-"pricePerUnit": 1000000,
-"timeToGather": 100,
-"color": "#800080",
-"actions": [
-{
-"name": "Craft",
-"product": "Eternity Ingot",
-"productQuantity": 1,
-"pricePerUnit": 5000000
-}
+    "type": "Ore",
+    "name": "Eternity Ore",
+    "rarity": "Transcendent",
+    "source": "Realms Beyond",
+    "spawnChance": 0.000001,
+    "miningMethod": "Dimensional Resonator",
+    "hardness": 50,
+    "description": "A transcendent ore that exists beyond the boundaries of our known reality. It is said to contain the essence of eternity itself and can be used to craft artifacts of unimaginable power.",
+    "pricePerUnit": 1000000,
+    "timeToGather": 100,
+    "color": "#800080",
+    "actions": [
+      {
+        "name": "Craft",
+        "product": "Eternity Ingot",
+        "productQuantity": 1,
+        "pricePerUnit": 5000000
+      }
+    ]
+  }
 ]
-}
-]
-  
