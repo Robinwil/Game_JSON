@@ -1,0 +1,423 @@
+[
+  {
+    "type": "Ore",
+    "name": "Copper Ore",
+    "rarity": "Common",
+    "source": "Copper veins",
+    "spawnChance": 0.8,
+    "miningMethod": "Pickaxe",
+    "hardness": 2,
+    "description": "A common ore found in copper veins. It can be smelted into copper ingots.",
+    "pricePerUnit": 5,
+    "timeToGather": 2,
+    "color": "#b87333",
+    "actions": [
+      {
+        "name": "Smelt",
+        "product": "Copper Ingot",
+        "productQuantity": 1,
+        "pricePerUnit": 10
+      }
+    ]
+  },
+  {
+    "type": "Ore",
+    "name": "Iron Ore",
+    "rarity": "Common",
+    "source": "Iron deposits",
+    "spawnChance": 0.7,
+    "miningMethod": "Pickaxe",
+    "hardness": 3,
+    "description": "A common ore found in iron deposits. It can be smelted into iron ingots.",
+    "pricePerUnit": 8,
+    "timeToGather": 3,
+    "color": "#a19d94",
+    "actions": [
+      {
+        "name": "Smelt",
+        "product": "Iron Ingot",
+        "productQuantity": 1,
+        "pricePerUnit": 15
+      }
+    ]
+  },
+  {
+    "type": "Ore",
+    "name": "Tin Ore",
+    "rarity": "Common",
+    "source": "Tin deposits",
+    "spawnChance": 0.6,
+    "miningMethod": "Pickaxe",
+    "hardness": 2,
+    "description": "A common ore found in tin deposits. It can be smelted into tin ingots.",
+    "pricePerUnit": 6,
+    "timeToGather": 2,
+    "color": "#d3d3d3",
+    "actions": [
+      {
+        "name": "Smelt",
+        "product": "Tin Ingot",
+        "productQuantity": 1,
+        "pricePerUnit": 12
+      }
+    ]
+  },
+  {
+    "type": "Ore",
+    "name": "Silver Ore",
+    "rarity": "Uncommon",
+    "source": "Silver veins",
+    "spawnChance": 0.5,
+    "miningMethod": "Pickaxe",
+    "hardness": 3,
+    "description": "An uncommon ore found in silver veins. It can be smelted into silver ingots.",
+    "pricePerUnit": 25,
+    "timeToGather": 4,
+    "color": "#c0c0c0",
+    "actions": [
+      {
+        "name": "Smelt",
+        "product": "Silver Ingot",
+        "productQuantity": 1,
+        "pricePerUnit": 50
+      }
+    ]
+  },
+  {
+    "type": "Ore",
+    "name": "Gold Ore",
+    "rarity": "Rare",
+    "source": "Gold veins",
+    "spawnChance": 0.3,
+    "miningMethod": "Pickaxe",
+    "hardness": 4,
+    "description": "A rare ore found in gold veins. It can be smelted into gold ingots.",
+    "pricePerUnit": 50,
+    "timeToGather": 5,
+    "color": "#ffd700",
+    "actions": [
+      {
+        "name": "Smelt",
+        "product": "Gold Ingot",
+        "productQuantity": 1,
+        "pricePerUnit": 100
+      }
+    ]
+  },
+  {
+    "type": "Ore",
+    "name": "Cobalt Ore",
+    "rarity": "Rare",
+    "source": "Cobalt deposits",
+    "spawnChance": 0.3,
+    "miningMethod": "Pickaxe",
+    "hardness": 4,
+    "description": "A rare ore found in cobalt deposits. It can be smelted into cobalt ingots.",
+    "pricePerUnit": 75,
+    "timeToGather": 6,
+    "color": "#0047ab",
+    "actions": [
+      {
+        "name": "Smelt",
+        "product": "Cobalt Ingot",
+        "productQuantity": 1,
+        "pricePerUnit": 150
+      }
+    ]
+  },
+  {
+    "type": "Ore",
+    "name": "Obsidian Ore",
+    "rarity": "Rare",
+    "source": "Obsidian deposits",
+    "spawnChance": 0.3,
+    "miningMethod": "Diamond Pickaxe",
+    "hardness": 6,
+    "description": "A rare ore found in obsidian deposits. It can be used for crafting durable tools and weapons.",
+    "pricePerUnit": 75,
+    "timeToGather": 8,
+    "color": "#000000",
+    "actions": [
+      {
+        "name": "Craft",
+        "product": "Obsidian Tools",
+        "productQuantity": 1,
+        "pricePerUnit": 200
+      }
+    ]
+  },
+  {
+    "type": "Ore",
+    "name": "Orichalcum Ore",
+    "rarity": "Very Rare",
+    "source": "Orichalcum veins",
+    "spawnChance": 0.2,
+    "miningMethod": "Enchanted Pickaxe",
+    "hardness": 5,
+    "description": "A very rare ore found in orichalcum veins. It can be smelted into orichalcum ingots.",
+    "pricePerUnit": 100,
+    "timeToGather": 8,
+    "color": "#00ced1",
+    "actions": [
+      {
+        "name": "Smelt",
+        "product": "Orichalcum Ingot",
+        "productQuantity": 1,
+        "pricePerUnit": 250
+      }
+    ]
+  },
+  {
+    "type": "Ore",
+    "name": "Platinum Ore",
+    "rarity": "Very Rare",
+    "source": "Platinum veins",
+    "spawnChance": 0.15,
+    "miningMethod": "Enchanted Pickaxe",
+    "hardness": 5,
+    "description": "A very rare ore found in platinum veins. It can be smelted into platinum ingots.",
+    "pricePerUnit": 150,
+    "timeToGather": 10,
+    "color": "#e5e4e2",
+    "actions": [
+      {
+        "name": "Smelt",
+        "product": "Platinum Ingot",
+        "productQuantity": 1,
+        "pricePerUnit": 300
+      }
+    ]
+  },
+  {
+    "type": "Ore",
+    "name": "Mithril Ore",
+    "rarity": "Epic",
+    "source": "Mithril deposits",
+    "spawnChance": 0.1,
+    "miningMethod": "Enchanted Pickaxe",
+    "hardness": 6,
+    "description": "An epic ore found in mithril deposits. It can be smelted into mithril ingots.",
+    "pricePerUnit": 200,
+    "timeToGather": 10,
+    "color": "#8a2be2",
+    "actions": [
+      {
+        "name": "Smelt",
+        "product": "Mithril Ingot",
+        "productQuantity": 1,
+        "pricePerUnit": 500
+      }
+    ]
+  },
+  {
+    "type": "Ore",
+    "name": "Meteorite Ore",
+    "rarity": "Epic",
+    "source": "Meteorite crash sites",
+    "spawnChance": 0.05,
+    "miningMethod": "Enchanted Pickaxe",
+    "hardness": 7,
+    "description": "An epic ore found in meteorite crash sites. It can be smelted into meteorite ingots.",
+    "pricePerUnit": 300,
+    "timeToGather": 12,
+    "color": "#4b0082",
+    "actions": [
+      {
+        "name": "Smelt",
+        "product": "Meteorite Ingot",
+        "productQuantity": 1,
+        "pricePerUnit": 750
+      }
+    ]
+  },
+  {
+    "type": "Ore",
+    "name": "Adamantite Ore",
+    "rarity": "Legendary",
+    "source": "Adamantite deposits",
+    "spawnChance": 0.05,
+    "miningMethod": "Enchanted Pickaxe",
+    "hardness": 8,
+    "description": "A legendary ore found in adamantite deposits. It can be smelted into adamantite ingots.",
+    "pricePerUnit": 500,
+    "timeToGather": 15,
+    "color": "#00008b",
+    "actions": [
+      {
+        "name": "Smelt",
+        "product": "Adamantite Ingot",
+        "productQuantity": 1,
+        "pricePerUnit": 1000
+      }
+    ]
+  },
+  {
+    "type": "Ore",
+    "name": "Celestial Ore",
+    "rarity": "Mythical",
+    "source": "Celestial Caves",
+    "spawnChance": 0.01,
+    "miningMethod": "Divine Pickaxe",
+    "hardness": 10,
+    "description": "An incredibly rare ore found in celestial caves. It possesses divine properties and can be used to craft legendary items.",
+    "pricePerUnit": 1000,
+    "timeToGather": 20,
+    "color": "#ffd700",
+    "actions": [
+      {
+        "name": "Craft",
+        "product": "Celestial Ingot",
+        "productQuantity": 1,
+        "pricePerUnit": 2500
+      }
+    ]
+  },
+  {
+    "type": "Ore",
+    "name": "Void Ore",
+    "rarity": "Otherworldly",
+    "source": "Void Rifts",
+    "spawnChance": 0.005,
+    "miningMethod": "Void Pickaxe",
+    "hardness": 12,
+    "description": "An otherworldly ore found in the depths of void rifts. It emanates an eerie darkness and can be used to craft items with mysterious powers.",
+    "pricePerUnit": 1500,
+    "timeToGather": 25,
+    "color": "#1c1c1c",
+    "actions": [
+      {
+        "name": "Craft",
+        "product": "Void Ingot",
+        "productQuantity": 1,
+        "pricePerUnit": 4000
+      }
+    ]
+  },
+  {
+    "type": "Ore",
+    "name": "Prismatic Ore",
+    "rarity": "Transcendent",
+    "source": "Prismatic Veins",
+    "spawnChance": 0.002,
+    "miningMethod": "Prismatic Pickaxe",
+    "hardness": 15,
+    "description": "A transcendent ore found in prismatic veins. It shimmers with all colors of the spectrum and possesses unimaginable power.",
+    "pricePerUnit": 5000,
+    "timeToGather": 30,
+    "color": "#ff00ff",
+    "actions": [
+      {
+        "name": "Craft",
+        "product": "Prismatic Ingot",
+        "productQuantity": 1,
+        "pricePerUnit": 10000
+      }
+    ]
+  },
+  {
+    "type": "Ore",
+    "name": "Aether Ore",
+    "rarity": "Ethereal",
+    "source": "Aether Clouds",
+    "spawnChance": 0.001,
+    "miningMethod": "Aether Extractor",
+    "hardness": 20,
+    "description": "An ethereal ore found in the floating aether clouds. It is said to contain the essence of the gods and can be used to craft divine artifacts.",
+    "pricePerUnit": 10000,
+    "timeToGather": 40,
+    "color": "#00ffff",
+    "actions": [
+      {
+        "name": "Craft",
+        "product": "Aether Ingot",
+        "productQuantity": 1,
+        "pricePerUnit": 25000
+      }
+    ]
+  },
+  {
+    "type": "Ore",
+    "name": "Stardust Ore",
+    "rarity": "Cosmic",
+    "source": "Fallen Stars",
+    "spawnChance": 0.0001,
+    "miningMethod": "Cosmic Resonator",
+    "hardness": 25,
+    "description": "A cosmic ore formed from the remnants of fallen stars. It glimmers with the light of a thousand galaxies and possesses unimaginable power.",
+    "pricePerUnit": 50000,
+    "timeToGather": 50,
+    "color": "#ffffff",
+    "actions": [
+      {
+        "name": "Craft",
+        "product": "Stardust Ingot",
+        "productQuantity": 1,
+        "pricePerUnit": 100000
+      }
+    ]
+  },
+  {
+    "type": "Ore",
+    "name": "Chronos Ore",
+    "rarity": "Timeless",
+    "source": "Temporal Rifts",
+    "spawnChance": 0.00005,
+    "miningMethod": "Chrono-Extractor",
+    "hardness": 30,
+    "description": "A timeless ore found in temporal rifts, existing outside the bounds of space and time. It can be used to craft artifacts capable of manipulating the very fabric of reality.",
+    "pricePerUnit": 100000,
+    "timeToGather": 60,
+    "color": "#ffa500",
+    "actions": [
+      {
+        "name": "Craft",
+        "product": "Chronos Ingot",
+        "productQuantity": 1,
+        "pricePerUnit": 250000
+      }
+    ]
+  },
+  {
+    "type": "Ore",
+    "name": "Singularity Ore",
+    "rarity": "Infinitesimal",
+    "source": "Cosmic Singularities",
+    "spawnChance": 0.00001,
+    "miningMethod": "Quantum Resonator",
+    "hardness": 40,
+    "description": "An infinitesimal ore found within the depths of cosmic singularities, where the laws of physics break down. It contains unfathomable power and can be used to craft artifacts capable of bending reality itself.",
+    "pricePerUnit": 500000,
+    "timeToGather": 80,
+    "color": "#000000",
+    "actions": [
+      {
+        "name": "Craft",
+        "product": "Singularity Ingot",
+        "productQuantity": 1,
+        "pricePerUnit": 1000000
+      }
+    ]
+  }
+  {
+"type": "Ore",
+"name": "Eternity Ore",
+"rarity": "Transcendent",
+"source": "Realms Beyond",
+"spawnChance": 0.000001,
+"miningMethod": "Dimensional Resonator",
+"hardness": 50,
+"description": "A transcendent ore that exists beyond the boundaries of our known reality. It is said to contain the essence of eternity itself and can be used to craft artifacts of unimaginable power.",
+"pricePerUnit": 1000000,
+"timeToGather": 100,
+"color": "#800080",
+"actions": [
+{
+"name": "Craft",
+"product": "Eternity Ingot",
+"productQuantity": 1,
+"pricePerUnit": 5000000
+}
+]
+}
+]
+  
